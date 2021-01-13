@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &84555791480465308
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 84555791480465310}
+  - component: {fileID: 84555791480465311}
+  m_Layer: 0
+  m_Name: CardDataBase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &84555791480465310
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84555791480465308}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.9367124, y: 0.12113851, z: -10.440426}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &84555791480465311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84555791480465308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d71bbd132dbdcb4e8f4228aae5da425, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deck:
+  - sCardName: "\uAE38\uACBD\uC778"
+    spCardImg: {fileID: 21300000, guid: cdde096a5eb8b6247a0e15cb4bb122bb, type: 3}
+    cardGrade: 0
+    nWeight: 12
+  - sCardName: "\uC800\uC9C0\uBD88\uAC00 \uAE38\uACBD\uC778"
+    spCardImg: {fileID: 21300000, guid: 141f8c755bc6a9545bf2b3f79d5181dd, type: 3}
+    cardGrade: 1
+    nWeight: 7
+  - sCardName: "\uCD08\uC0AC\uC774\uC5B8 \uAE38\uACBD\uC778"
+    spCardImg: {fileID: 21300000, guid: da3d3d3cf78b70c47a00197294a1f30d, type: 3}
+    cardGrade: 2
+    nWeight: 1
+  - sCardName: "\uC815\uACBD\uD0DC"
+    spCardImg: {fileID: 21300000, guid: 488f322d9ee1b1c45a9b7aa344cb0bba, type: 3}
+    cardGrade: 0
+    nWeight: 12
+  - sCardName: "\uD3ED\uC8FC\uC871 \uC815\uACBD\uD0DC"
+    spCardImg: {fileID: 21300000, guid: 76dabf243fd7df34ca7f27d6ae0e33ed, type: 3}
+    cardGrade: 1
+    nWeight: 7
+  - sCardName: "\uC138\uAE30\uB9D0 \uC815\uACBD\uD0DC"
+    spCardImg: {fileID: 21300000, guid: 100c1e96669aaef4d82737f1737cfab5, type: 3}
+    cardGrade: 2
+    nWeight: 1
+  - sCardName: "\uBC15\uAE30\uD0DC"
+    spCardImg: {fileID: 21300000, guid: 9e07ca21b23d3a941a5b83c5f0ed4e24, type: 3}
+    cardGrade: 0
+    nWeight: 12
+  - sCardName: "\uC81C\uC8FC\uB3C4 \uBC15\uAE30\uD0DC\uD48D"
+    spCardImg: {fileID: 21300000, guid: bfd60396641e5c0438e644022ce50b96, type: 3}
+    cardGrade: 1
+    nWeight: 7
+  - sCardName: "\uC77C\uBCF8 \uBC15\uAE30\uD0DC"
+    spCardImg: {fileID: 21300000, guid: aa9ab75a98255dc45a465a165473f7c7, type: 3}
+    cardGrade: 2
+    nWeight: 1
+  - sCardName: "\uC784\uC740\uC12D"
+    spCardImg: {fileID: 21300000, guid: c2acb9f6a6676324f8f25bd098e3e709, type: 3}
+    cardGrade: 0
+    nWeight: 12
+  - sCardName: "\uC218\uACBD \uC784\uC740\uC12D"
+    spCardImg: {fileID: 21300000, guid: 08d982a5ed5565d41892f5136a7076ec, type: 3}
+    cardGrade: 1
+    nWeight: 7
+  - sCardName: "\uC218\uC601\uC7A5 \uD30C\uD2F0 \uC784\uC740\uC12D"
+    spCardImg: {fileID: 21300000, guid: c3d790a4cb6d6114f83b490222e5de07, type: 3}
+    cardGrade: 2
+    nWeight: 1
+  - sCardName: "\uC774\uC7AC\uC6D0"
+    spCardImg: {fileID: 21300000, guid: f5df06448f35d0842923904fe359d8f1, type: 3}
+    cardGrade: 0
+    nWeight: 12
+  - sCardName: "\uB178\uB780\uCE74\uB4DC \uC774\uC7AC\uC6D0"
+    spCardImg: {fileID: 21300000, guid: 01bc4239914d30b41badfad70f45ebba, type: 3}
+    cardGrade: 1
+    nWeight: 7
+  - sCardName: "\uD2B8\uC704\uC2A4\uD2F0\uB4DC \uD398\uC774\uD2B8 \uC774\uC7AC\uC6D0"
+    spCardImg: {fileID: 21300000, guid: 8291e47aa20ebef4a96ef7d85d01df2c, type: 3}
+    cardGrade: 2
+    nWeight: 1
+  - sCardName: "\uBC15\uC885\uC5FD"
+    spCardImg: {fileID: 21300000, guid: 150216bc4070e7247960ca97477dc124, type: 3}
+    cardGrade: 0
+    nWeight: 12
+  - sCardName: "\uD558\uD2B8 \uBC15\uC885\uC5FD"
+    spCardImg: {fileID: 21300000, guid: 6b27f724dd2567c46964fe2afb9a379e, type: 3}
+    cardGrade: 1
+    nWeight: 7
+  - sCardName: "\uC0AC\uB791 \uCD94\uC801\uC790 \uBC15\uC885\uC5FD"
+    spCardImg: {fileID: 21300000, guid: 198583fe1b03b104c949a8599d25b913, type: 3}
+    cardGrade: 2
+    nWeight: 1
+  - sCardName: "\uC74C\uC8FC\uD658"
+    spCardImg: {fileID: 21300000, guid: b04c8245037b610439823471b41c5cc1, type: 3}
+    cardGrade: 0
+    nWeight: 12
+  - sCardName: "\uBB34\uC7A5\uD55C \uC74C\uC8FC\uD658"
+    spCardImg: {fileID: 21300000, guid: 0c6bd599604d2dd48adb2ecaba997097, type: 3}
+    cardGrade: 1
+    nWeight: 7
+  - sCardName: "\uC0AC\uC774\uBCF4\uADF8 \uC74C\uC8FC\uD658"
+    spCardImg: {fileID: 21300000, guid: 5c534ee4def7df643b8da6bf54b268d1, type: 3}
+    cardGrade: 2
+    nWeight: 1
+  - sCardName: "\uBC31\uC900\uAE30"
+    spCardImg: {fileID: 21300000, guid: 6ed8ab847b91f4a438270afb9fbad342, type: 3}
+    cardGrade: 0
+    nWeight: 12
+  - sCardName: "\uC544\uC218\uB77C \uBC31\uC900\uAE30"
+    spCardImg: {fileID: 21300000, guid: 340bb6530cab8304494bab77e7ff31ed, type: 3}
+    cardGrade: 1
+    nWeight: 7
+  - sCardName: "\u771E:\uC544\uC218\uB77C \uBC31\uC900\uAE30"
+    spCardImg: {fileID: 21300000, guid: 4299099238a097d4f925203919a4b39e, type: 3}
+    cardGrade: 2
+    nWeight: 1
+  - sCardName: "\uC774\uC131\uC900"
+    spCardImg: {fileID: 21300000, guid: 495aecda236deff4fa9df401fee28ce0, type: 3}
+    cardGrade: 0
+    nWeight: 12
+  - sCardName: "\uBCF4\uC2A4 \uC774\uC131\uC900"
+    spCardImg: {fileID: 21300000, guid: 0b47328104be3464b9ceef0b3ad79ccd, type: 3}
+    cardGrade: 1
+    nWeight: 7
+  - sCardName: "\uCAC0\uB4DD\uC774\uD0B9 \uC774\uC131\uC900"
+    spCardImg: {fileID: 21300000, guid: b18d999e2708e5146a0d941b384d9edf, type: 3}
+    cardGrade: 2
+    nWeight: 1
+  - sCardName: "\uB098\uD0DC\uD638"
+    spCardImg: {fileID: 21300000, guid: dfcedef1ea9bed94a80898f3e2fdfaa9, type: 3}
+    cardGrade: 0
+    nWeight: 12
+  - sCardName: "\uB85C\uB9AC \uB098\uD0DC\uD638"
+    spCardImg: {fileID: 21300000, guid: 5188aff4f086e784f90220004998080f, type: 3}
+    cardGrade: 1
+    nWeight: 7
+  - sCardName: "\uD558\uC774\uB4DC \uB098\uD0DC\uD638"
+    spCardImg: {fileID: 21300000, guid: 4412a7bae7c7c734d9da428d4796bad5, type: 3}
+    cardGrade: 2
+    nWeight: 1
+  - sCardName: "\uAE40\uD615\uD0DC"
+    spCardImg: {fileID: 21300000, guid: ae325e01d450d6e4d9f5f3f6ec78160c, type: 3}
+    cardGrade: 0
+    nWeight: 12
+  - sCardName: "\uAE30\uBB34\uB77C \uCE74\uC988\uD1A0"
+    spCardImg: {fileID: 21300000, guid: a2a87c1ecddce4b40b48a8597ab1817d, type: 3}
+    cardGrade: 1
+    nWeight: 7
+  - sCardName: "\uAE30\uBB34\uB77C \uD6AC\uD0C0\uC774"
+    spCardImg: {fileID: 21300000, guid: 03053ca47341c074ebd150b49c0a3b19, type: 3}
+    cardGrade: 2
+    nWeight: 1

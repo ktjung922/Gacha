@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5663456243086264040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5663456243086264042}
+  - component: {fileID: 5663456243086264043}
+  m_Layer: 0
+  m_Name: CardDataBaseNomal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5663456243086264042
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5663456243086264040}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.9367124, y: 0.12113851, z: -10.440426}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5663456243086264043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5663456243086264040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d71bbd132dbdcb4e8f4228aae5da425, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deck:
+  - sCardName: "\uB179\uC0C9 \uC2AC\uB77C\uC784"
+    spCardImg: {fileID: 2194162761614995718, guid: 0be48917e76f8be499fd1451e3929d0c,
+      type: 3}
+    cardGrade: 0
+    nWeight: 12
+  - sCardName: "\uD558\uB298 \uC2AC\uB77C\uC784"
+    spCardImg: {fileID: -5949786800974812072, guid: 0be48917e76f8be499fd1451e3929d0c,
+      type: 3}
+    cardGrade: 0
+    nWeight: 12
+  - sCardName: "\uBCC4 \uC2AC\uB77C\uC784"
+    spCardImg: {fileID: 8407425892868003355, guid: 0be48917e76f8be499fd1451e3929d0c,
+      type: 3}
+    cardGrade: 1
+    nWeight: 7
+  - sCardName: "\uBC24 \uC2AC\uB77C\uC784"
+    spCardImg: {fileID: 3914782269281525920, guid: 0be48917e76f8be499fd1451e3929d0c,
+      type: 3}
+    cardGrade: 1
+    nWeight: 7
+  - sCardName: "\uC545\uB9C8 \uC2AC\uB77C\uC784"
+    spCardImg: {fileID: 7306498039546104431, guid: 0be48917e76f8be499fd1451e3929d0c,
+      type: 3}
+    cardGrade: 2
+    nWeight: 1
+  - sCardName: "\uC9C0\uC625 \uC2AC\uB77C\uC784"
+    spCardImg: {fileID: 9088873302555526075, guid: 0be48917e76f8be499fd1451e3929d0c,
+      type: 3}
+    cardGrade: 2
+    nWeight: 1
